@@ -1,0 +1,32 @@
+.notification-bell-container {
+  background: gray;
+  border: 1px solid green;
+}
+
+.notification-bell-container img {
+  height: 90px;
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  background: black;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  opacity: 0.8;
+}
+
+.modal {
+  position: fixed;
+  top: 30%;
+  left: 40%;
+  padding: 5em;
+  background: #303030;
+  border: 1px solid #a0a0a0;
+}
+
+.modal .modal-footer {
+  display: block;
+  margin-top: 1em;
+}
